@@ -1,20 +1,32 @@
-# React + TypeScript + Vite + Tailwind CSS
+# Calculadora de Propinas
 
-Proyecto que realiza el cálculo de propinas con base en la selección de una serie de productos.
-Para este proyecto se utilizó:
-	-React
-	-TypeScript
-	-Vite
-	-Tailwind CSS
+Este proyecto es una calculadora de propinas que permite calcular el monto de la propina basado en la selección de una serie de productos. Ha sido desarrollado utilizando React, TypeScript, Vite y Tailwind CSS.
 
-Además, se realizó un Custom Hook, para centralizar los procesos. 
-Algunos de los Hooks utilizados son:
-	-useState
-	-useMemo
-	-useCallback
+## Tecnologías Utilizadas
 
-Estos dos últimos se utilizaron que mejorar el performace del proyecto, evitanto renderizados innecesarios en la aplicación, entre muchas otras cosas.
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
 
-Si deseas probar la funcionalidad del sistema en productivo puedes acceder a este enlace:
-https://guitarla-danielbriseno.netlify.app/ 
+## Custom Hook
 
+Se ha implementado un Custom Hook para centralizar los procesos relacionados con el cálculo de propinas y la gestión de los productos.
+
+## Hooks Utilizados
+
+Este proyecto hace uso de varios hooks de React, incluyendo:
+
+- useState
+- useMemo
+- useCallback
+
+Los últimos dos, `useMemo` y `useCallback`, se utilizan para mejorar el rendimiento del proyecto, evitando renderizaciones innecesarias y optimizando la aplicación en general.
+
+## Prueba la Aplicación
+
+Puedes probar la funcionalidad del sistema accediendo al siguiente enlace:
+
+[Calculadora de Propinas en producción](https://calculadorapropinas-danielbriseno.netlify.app/)
+
+¡Disfruta calculando tus propinas de forma rápida y sencilla!
